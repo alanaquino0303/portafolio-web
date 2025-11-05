@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Portafolio Web de Alan Aquino</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Tipografía -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Íconos Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Encabezado -->
+    <header>
+      <div class="logo">Alan Aquino</div>
+      <nav id="menu" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <!-- Botón Dark Mode -->
+      <button id="dark-mode-toggle" aria-label="Alternar modo oscuro">🌙</button>
+      <!-- Botón Menú Hamburguesa -->
+      <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menú">
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+    </header>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi">
+      <h1>Sobre mí</h1>
+      <p>
+        Cursando el cuarto semestre de Ingeniería en Informática, me apasionan el desarrollo de software y hardware. Busco crear soluciones tecnológicas eficientes, integrando mis conocimientos en programación y arquitectura de sistemas. Aspiro a seguir creciendo profesionalmente, afrontando nuevos desafíos y perfeccionando mis habilidades en ambos campos.
+      </p>
+      <img src="img/foto.jpg" alt="Foto de Alan Aquino" class="foto-perfil">
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos">
+      <h1>Proyectos</h1>
+
+      <!-- HTML, CSS y JS -->
+      <h2 class="subtitulo">HTML, CSS y JavaScript</h2>
+      <div class="proyectos-grid">
+        <div class="proyecto">
+          <h2>Eliminador de Metadatos</h2>
+          <p>Herramienta web para borrar metadatos de imágenes, PDF y archivos multimedia. Interfaz accesible, modo oscuro y vista previa para proteger la privacidad al compartir archivos.</p>
+          <a href="https://github.com/alanaquino0303/eliminador-metadatos" target="_blank" rel="noopener noreferrer">Ver en GitHub</a><br>
+          <a href="https://alanaquino0303.github.io/eliminador-metadatos/" target="_blank" rel="noopener noreferrer" class="btn-demo">Ver página</a>
+        </div>
+
+        <div class="proyecto">
+          <h2>Generador de Códigos QR</h2>
+          <p>Aplicación web para generar códigos QR personalizados con colores, fondo y tamaño. Permite descargar los QR generados en formato PNG.</p>
+          <a href="https://github.com/alanaquino0303/generador-codigos-qr" target="_blank" rel="noopener noreferrer">Ver en GitHub</a><br>
+          <a href="https://alanaquino0303.github.io/generador-codigos-qr/" target="_blank" rel="noopener noreferrer" class="btn-demo">Ver página</a>
+        </div>
+
+        <div class="proyecto">
+          <h2>Portafolio Web</h2>
+          <p>Versión actual de este portafolio web. Presenta información sobre mí, proyectos, habilidades y enlaces de contacto con diseño adaptable y modo oscuro.</p>
+          <a href="https://github.com/alanaquino0303/portafolio-web" target="_blank" rel="noopener noreferrer">Ver en GitHub</a><br>
+          <a href="https://alanaquino0303.github.io/portafolio-web/" target="_blank" rel="noopener noreferrer" class="btn-demo">Ver página</a>
+        </div>
+      </div>
+
+      <!-- Python -->
+      <h2 class="subtitulo">Python</h2>
+      <div class="proyectos-grid">
+        <div class="proyecto">
+          <h2>Stack Overflow Tech Analysis 2025</h2>
+          <p>Analiza los resultados de la encuesta Stack Overflow 2025 con visualizaciones y un informe PDF. Incluye datos, código y reporte automatizado.</p>
+          <a href="https://github.com/alanaquino0303/stack-overflow-tech-analysis-2025" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
+        </div>
+
+        <div class="proyecto">
+          <h2>Boletín de Calificaciones MEC Paraguay</h2>
+          <p>Generador automático de boletines en PDF con formato oficial del MEC. Permite ingresar calificaciones y observaciones fácilmente.</p>
+          <a href="https://github.com/alanaquino0303/boletin-calificaciones-mec-paraguay" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
+        </div>
+
+        <div class="proyecto">
+          <h2>Titles Scraper</h2>
+          <p>Script en Python que extrae texto de etiquetas HTML (h1, h2, p) desde una URL. Incluye manejo de errores y opción para guardar los resultados.</p>
+          <a href="https://github.com/alanaquino0303/titles-scraper" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
+        </div>
+      </div>
+
+      <!-- C -->
+      <h2 class="subtitulo">C</h2>
+      <div class="proyectos-grid">
+        <div class="proyecto">
+          <h2>Sistema de Inventario</h2>
+          <p>Programa en consola para gestionar inventarios con operaciones CRUD y persistencia en CSV. Ideal para practicar estructuras y archivos en C.</p>
+          <a href="https://github.com/alanaquino0303/sistema-inventario" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
+        </div>
+
+        <div class="proyecto">
+          <h2>Calculadora de Préstamos</h2>
+          <p>Calcula cuotas mensuales y muestra tabla de amortización con validaciones de entrada. Compatible con Linux, macOS y Windows.</p>
+          <a href="https://github.com/alanaquino0303/calculadora-prestamos" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
+        </div>
+
+        <div class="proyecto">
+          <h2>Conversor de Unidades</h2>
+          <p>Convierte temperatura, longitud y peso mediante un menú interactivo. Código claro y comentado, fácil de compilar y ejecutar.</p>
+          <a href="https://github.com/alanaquino0303/conversor-unidades" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
+        </div>
+      </div>
+
+      <!-- C++ -->
+      <h2 class="subtitulo">C++</h2>
+      <div class="proyectos-grid">
+        <div class="proyecto">
+          <h2>Torres de Hanói</h2>
+          <p>Versión interactiva de las Torres de Hanói en consola con visualización ASCII, validación de movimientos y conteo de jugadas.</p>
+          <a href="https://github.com/alanaquino0303/torres-hanoi" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
+        </div>
+
+        <div class="proyecto">
+          <h2>Tres en Raya</h2>
+          <p>Juego de consola para dos jugadores con detección de ganador o empate. Ideal para practicar lógica de juegos por turnos.</p>
+          <a href="https://github.com/alanaquino0303/tres-raya" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
+        </div>
+
+        <div class="proyecto">
+          <h2>Ahorcado</h2>
+          <p>Juego del Ahorcado en C++ con lista de palabras y dibujo ASCII. Excelente práctica de manipulación de strings y estructuras básicas.</p>
+          <a href="https://github.com/alanaquino0303/ahorcado" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades">
+      <h1>Habilidades</h1>
+      <div class="habilidades-grid">
+        <div class="card">
+          <i class="fa-solid fa-code" aria-hidden="true"></i>
+          <h2>Lenguajes y Tecnologías</h2>
+          <p>HTML, CSS, JavaScript, Python, C, C++, SQL (PostgreSQL), QBasic, PSeInt y SL.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-laptop-code" aria-hidden="true"></i>
+          <h2>Entornos de Desarrollo</h2>
+          <p>Visual Studio Code, PyCharm, Code::Blocks, Dev-C++ y PgAdmin.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-database" aria-hidden="true"></i>
+          <h2>Plataformas y Sistemas</h2>
+          <p>Linux (basados en Debian), Windows, Microsoft 365 y Oracle VirtualBox.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-terminal" aria-hidden="true"></i>
+          <h2>Control de Versiones y Terminales</h2>
+          <p>Git, GitHub, Shell (Bash y PowerShell).</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
+          <h2>Análisis de Datos</h2>
+          <p>Power BI y Tableau.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-diagram-project" aria-hidden="true"></i>
+          <h2>Modelado y Diagramas</h2>
+          <p>Draw.io y PlantUML.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-language" aria-hidden="true"></i>
+          <h2>Idiomas</h2>
+          <p>Guaraní (intermedio), inglés (intermedio) y portugués (básico).</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-tools" aria-hidden="true"></i>
+          <h2>Otras Competencias</h2>
+          <p>Reparación y mantenimiento de PC.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+      <h1>Contacto</h1>
+      <form id="form-contacto" action="https://formspree.io/f/mkgpplpv" method="POST">
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+        <input type="email" name="email" placeholder="Tu correo" required>
+        <textarea name="mensaje" placeholder="Escribe tu mensaje..." required></textarea>
+        <button type="submit">Enviar</button>
+        <div id="loader" class="loader hidden" aria-hidden="true" role="status"></div>
+      </form>
+      <div class="redes" aria-label="Redes sociales">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=alanaquino0303@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Gmail</a>
+        <a href="https://www.linkedin.com/in/alanaquino0303" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+        <a href="https://github.com/alanaquino0303" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+      </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+      <p>&copy; 2025 Alan Aquino. Gracias por visitar mi Portafolio Web.</p>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal-content">
+        <span id="modal-close" role="button" aria-label="Cerrar">&times;</span>
+        <p id="modal-message"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
