@@ -26,7 +26,7 @@ Portafolio web desarrollado para presentar información sobre mí, proyectos, ha
 
 ## Requisitos
 
-- Navegador moderno (Chrome, Firefox, Edge, Safari, etc.).
+- Navegador moderno (Brave, Chrome, Edge, Firefox, Safari, etc.).
 
 ---
 
