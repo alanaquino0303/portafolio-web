@@ -1,6 +1,6 @@
 # Portafolio Web
 
-Portafolio web desarrollado para presentar información sobre mí, proyectos, habilidades y enlaces de contacto. El sitio cuenta con diseño moderno, modo oscuro, navegación responsiva y un formulario funcional en Formspree de contacto.
+Portafolio web desarrollado para presentar información sobre mí, proyectos, habilidades y enlaces de contacto. El sitio cuenta con diseño moderno, modo oscuro, navegación responsiva y un formulario funcional en Formspree.
 
 ---
 
