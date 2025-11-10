@@ -14,7 +14,7 @@ body {
 
 /* Encabezado */
 header {
-  background: #FF0000;
+  background: #FF8000;
   color: white;
   padding: 15px 20px;
   display: flex;
@@ -77,7 +77,7 @@ section {
 
 section h1 {
   margin-bottom: 20px;
-  color: #FF0000;
+  color: #FF8000;
   font-weight: 600;
 }
 
@@ -86,7 +86,7 @@ section h1 {
   margin-top: 15px;
   width: 150px;
   border-radius: 50%;
-  border: 3px solid #FF0000;
+  border: 3px solid #FF8000;
 }
 
 /* Proyectos */
@@ -109,7 +109,7 @@ section h1 {
 }
 
 .proyecto h2 {
-  color: #FF0000;
+  color: #FF8000;
   font-size: 1.15em;
 }
 
@@ -122,20 +122,20 @@ section h1 {
 .proyecto a {
   display: inline-block;
   margin-top: 10px;
-  color: #FF0000;
+  color: #FF8000;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s, transform 0.2s;
 }
 
 .proyecto a:hover {
-  color: #cc0000;
+  color: #cc6600;
   transform: translateY(-2px);
 }
 
 /* Botón "Ver página" */
 .proyecto .btn-demo {
-  background: #FF0000;
+  background: #FF8000;
   color: white;
   border-radius: 6px;
   padding: 8px 14px;
@@ -146,7 +146,7 @@ section h1 {
 }
 
 .proyecto .btn-demo:hover {
-  background: #cc0000;
+  background: #cc6600;
   transform: translateY(-2px);
 }
 
@@ -172,12 +172,12 @@ section h1 {
 
 .card i {
   font-size: 2em;
-  color: #FF0000;
+  color: #FF8000;
   margin-bottom: 10px;
 }
 
 .card h2 {
-  color: #FF0000;
+  color: #FF8000;
   margin-bottom: 10px;
 }
 
@@ -210,7 +210,7 @@ form textarea {
 
 form button {
   padding: 12px;
-  background: #FF0000;
+  background: #FF8000;
   color: white;
   border: none;
   border-radius: 6px;
@@ -219,15 +219,15 @@ form button {
 }
 
 form button:hover {
-  background: #cc0000;
+  background: #cc6600;
 }
 
 /* Enfoque de los campos */
 form input:focus,
 form textarea:focus {
   outline: none;
-  border: 2px solid #FF0000;
-  box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+  border: 2px solid #FF8000;
+  box-shadow: 0 0 5px rgba(255, 128, 0, 0.5);
 }
 
 /* Redes */
@@ -241,31 +241,31 @@ form textarea:focus {
   gap: 6px;
   margin: 0 12px;
   text-decoration: none;
-  color: #FF0000;
+  color: #FF8000;
   font-weight: 600;
   transition: opacity 0.3s, color 0.3s, transform 0.2s;
 }
 
 .redes a:hover {
   opacity: 0.8;
-  color: #cc0000;
+  color: #cc6600;
   transform: translateY(-3px);
 }
 
 .redes i {
   font-size: 1.2em;
-  color: #FF0000;
+  color: #FF8000;
 }
 
 .redes a:hover i {
-  color: #cc0000;
+  color: #cc6600;
 }
 
 /* Loader */
 .loader {
   margin: 10px auto;
   border: 4px solid #f3f3f3;
-  border-top: 4px solid #FF0000;
+  border-top: 4px solid #FF8000;
   border-radius: 50%;
   width: 28px;
   height: 28px;
@@ -324,16 +324,16 @@ form textarea:focus {
 
 /* Colores para mensajes */
 .modal-content p.success {
-  color: #d32f2f;
+  color: #d35400;
 }
 
 .modal-content p.error {
-  color: #d32f2f;
+  color: #d35400;
 }
 
 /* Pie de página */
 footer {
-  background: #FF0000;
+  background: #FF8000;
   color: white;
   text-align: center;
   padding: 20px 0;
@@ -347,15 +347,15 @@ footer {
 }
 
 .dark-mode header {
-  background: #cc0000;
+  background: #cc6600;
 }
 
 .dark-mode section h1 {
-  color: #ff9999;
+  color: #ffb380;
 }
 
 .dark-mode .foto-perfil {
-  border: 3px solid #ff9999;
+  border: 3px solid #ffb380;
 }
 
 .dark-mode .proyecto,
@@ -366,20 +366,20 @@ footer {
 
 .dark-mode .proyecto h2,
 .dark-mode .card h2 {
-  color: #ff9999;
+  color: #ffb380;
 }
 
 .dark-mode .card i {
-  color: #ff9999;
+  color: #ffb380;
 }
 
 .dark-mode .redes a,
 .dark-mode .redes i {
-  color: #ff9999;
+  color: #ffb380;
 }
 
 .dark-mode footer {
-  background: #cc0000;
+  background: #cc6600;
 }
 
 .dark-mode .modal-content {
@@ -397,17 +397,17 @@ footer {
 /* Enfoque en modo oscuro */
 .dark-mode form input:focus,
 .dark-mode form textarea:focus {
-  border: 2px solid #ff9999;
-  box-shadow: 0 0 5px rgba(255, 153, 153, 0.6);
+  border: 2px solid #ffb380;
+  box-shadow: 0 0 5px rgba(255, 179, 128, 0.6);
 }
 
 .dark-mode .btn-demo {
-  background: #ff9999;
+  background: #ffb380;
   color: #660000;
 }
 
 .dark-mode .btn-demo:hover {
-  background: #ff6666;
+  background: #ff944d;
 }
 
 /* Responsividad */
@@ -417,7 +417,7 @@ footer {
     position: absolute;
     top: 60px;
     right: 20px;
-    background: #FF0000;
+    background: #FF8000;
     border-radius: 8px;
     padding: 15px;
   }
@@ -441,3 +441,8 @@ footer {
     width: 120px;
   }
   .proyecto .btn-demo {
+    margin-left: 0;
+    margin-top: 8px;
+    display: inline-block;
+  }
+  }
